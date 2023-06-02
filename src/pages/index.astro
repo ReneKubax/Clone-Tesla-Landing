@@ -2,6 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import LandingHeader from "../components/LandingHeader.astro";
 import HeroSection from '../components/HeroSection.astro';
+import PowerWall from '../components/PowerWall.astro';
 ---
 
 <Layout title="Tesla - El coche de tus sueños (y de Elon Musk)">
@@ -9,6 +10,9 @@ import HeroSection from '../components/HeroSection.astro';
 	<main class="snap-y snap-mandatory relative w-full h-screen overflow-y-auto overflow-x-hidden scroll-smooth">
 		<div class="snap-center">
 			<HeroSection />
+		  </div>
+		  <div class="snap-center">
+			<PowerWall />
 		  </div>
 	</main>
 </Layout>
