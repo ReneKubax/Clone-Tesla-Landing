@@ -1,12 +1,15 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import LandingHeader from "../components/LandingHeader.astro";
+import HeroSection from '../components/HeroSection.astro';
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout title="Tesla - El coche de tus sueños (y de Elon Musk)">
 	<LandingHeader />
-	<main>
-		
+	<main class="snap-y snap-mandatory relative w-full h-screen overflow-y-auto overflow-x-hidden scroll-smooth">
+		<div class="snap-center">
+			<HeroSection />
+		  </div>
 	</main>
 </Layout>
 
